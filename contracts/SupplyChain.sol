@@ -1,9 +1,9 @@
-pragma solidity ^0.4.23;
+pragma solidity ^0.4.24;
 
 contract SupplyChain {
 
   /* set owner */
-  address owner;
+  address public owner;
 
   /* Add a variable called skuCount to track the most recent sku # */
   uint skuCount;
